@@ -1,0 +1,97 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    width: 50%;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 0 auto;
+    background-color: papayawhip;
+}
+h1 {
+    font-size: 50px;
+    color: darkorange;
+    border-bottom: 2px solid palevioletred;
+    text-align: center;
+}
+.p {
+    text-align: center;
+    font-size: 15px;
+    color: darkred;
+    font: bold;
+}
+.form {
+    margin-left: -20px;
+    width: 100%;
+    border: solid 1px palevioletred;
+    padding: 20px 25px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.form label {
+    font: bold; 
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: darkred; 
+}
+.form input[type="number"] {
+   width: 100%;
+   padding: 10px 20px;
+   outline: none;
+   border: none;
+   background-color: pink;
+   font-size: 20px;
+   border-radius: 50px;
+   color: darkred;
+}
+.form input[type="submit"] {
+    margin-left: 10px;
+    color: darkred;
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover {
+    background-color: darkorange;
+    color: black;
+}
+.resetbtn {
+    margin-left: 10px;
+    color: darkred;
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.resetbtn:hover {
+    background-color: darkorange;
+    color: black;
+}
+@media screen and (max-width:700px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+ @media screen and (max-width:500px) {
+    h1 {
+        font-size: 25px;
+    }
+    .form {
+        width: 75%;
+        margin-left: 20px;
+    }
+    .form label {
+        font-size: 12px;
+    }
+    .form input {
+        width: 75%;
+    }
+ }
+ 
